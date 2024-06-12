@@ -1,1 +1,62 @@
+@font-face {
+	font-family: 'ChakraPetch-Medium';
+	src: url('../fonts/ChakraPetch-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.block-loading {
+	width: 100%;
+	height: 100vh;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+}
+
+.row {
+	height: 100vh;
+	box-sizing: border-box;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-flow: column;
+}
+
+.text-loading {
+	font-family: 'ChakraPetch-Medium';
+	color: #ffffff;
+	font-size: 25px;
+	text-align: center;
+}
+
+.refreshe {
+	width: 50px;
+	height: 50px;
+	border-radius: 999em;
+	background-image: url(../images/refreshe.svg);
+	transition: all 0.5s ease;
+	border: none;
+}
+
+.refreshe:hover {
+	cursor: pointer;
+	transform: rotateZ(90deg);
+	transition: all 0.5s ease;
+}
 
